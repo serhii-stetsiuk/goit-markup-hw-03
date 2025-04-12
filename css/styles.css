@@ -1,0 +1,99 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #434455;
+	letter-spacing: 0.02em;
+}
+a {
+	text-decoration: none;
+	letter-spacing: 0.02em;
+}
+a, button {
+	font-family: inherit;
+}
+ul {
+	list-style-type: none;
+}
+.baner {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	color: #4d5ae5;
+}
+
+.menu-item .menu-links {
+	font-weight: 500;
+}
+.menu-links, .general-title, .logo-color {
+	color: #2e2f42;
+}
+
+.connection-link {
+		color: #434455;
+		
+}
+.connection-block {
+	font-style:normal;
+}
+.menu-links:hover, .connection-link:hover, .menu-links:focus,
+.connection-link:focus {
+	color: #404bbf;
+}
+/* Effective Solutions for Your Business */
+.effective, .basement {
+	background-color: #2e2f42;
+}
+.effective-solutions {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+.effective-solutions, .effective-push {
+	color: #fff;
+}
+.effective-push {
+	font-weight: 500;
+	letter-spacing: 0.04em;
+	background-color: #4d5ae5;
+	cursor: pointer;
+	line-height: 1.5;
+}
+.effective-push:hover, .effective-push:focus {
+	background-color: #404BBF;
+
+}
+/* Our advantages */
+.general-title-three {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #2e2f42;
+	letter-spacing: 0.02em;
+}
+/* Our Team */
+.team {
+	background-color: #f4f4fd;
+}
+.general-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+.team-item {
+	background-color: #fff;
+}
+
+/* footer */
+.basement-text, .logo-basement {
+	color: #f4f4fd;
+}
