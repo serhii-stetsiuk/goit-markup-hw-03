@@ -50,10 +50,10 @@ ul {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.conteiner-border {
+.container-border {
 	border-bottom: 1px solid #e7e9fc;
 }
-.top-menu, .top-items, .conteiner-menu, .connection {
+.top-menu, .top-items, .container-menu, .connection {
 	display: flex;
 	align-items: center;
 	
