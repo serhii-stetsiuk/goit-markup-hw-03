@@ -45,7 +45,7 @@ ul {
 		margin: -1px;
 }
 /* header */
-.conteiner {
+.container {
 	max-width: 1158px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -100,6 +100,9 @@ ul {
 .section {
 	padding: 120px 0;
 }
+.effective {
+	padding: 188px 0;
+}
 .effective, .basement {
 	background-color: #2e2f42;
 }
@@ -109,7 +112,9 @@ ul {
 	line-height: 1.07;
 	text-align: center;
 	letter-spacing: 0.02em;
-	margin-bottom: 48px;
+	max-width: 496px;
+	margin: 0 auto 48px;
+
 }
 .effective-solutions, .effective-push {
 	color: #fff;
@@ -125,7 +130,7 @@ ul {
 	border-radius: 4px;
 	width: 169px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-	margin: 0 auto 68px;
+	margin: 0 auto;
 	
 	
 }
@@ -133,11 +138,7 @@ ul {
 	background-color: #404BBF;
 
 }
-.solutions {
-	max-width: 496px;
-	margin: 0 auto;
-	padding-top: 68px;
-}
+
 /* Our advantages */
 .general-text {
 	margin: 0;
