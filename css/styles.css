@@ -144,64 +144,7 @@ ul {
 } */
 
 /* Our advantages */
-.general-text {
-	margin: 0;
-}
-
-.chapter {
-	display: flex;
-	justify-content: space-between;
-		
-}
-.advantages-block {
-	gap: 24px;
-}
-.advantages-item {
-	flex-basis: calc((100%-3*24px)/4);
-	
-}
-.general-title-three {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	color: #2e2f42;
-	letter-spacing: 0.02em;
-	margin-bottom: 8px;
-}
-
-/* Our Team */
-.team-block {
-	flex-wrap: wrap;
-	gap: 24px;
-}
-.team-border {
-	border: 1px solid #000;
-	padding: 32px 0;
-}
-.team {
-	background-color: #f4f4fd;
-	border: 1px solid #000;
-}
-.general-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.11;
-	text-align: center;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
-	margin-bottom: 72px;
-}
-.team-item {
-	background-color: #fff;
-	flex-basis: calc((100%-3*24px)/4);
-	border-radius: 0 0 4px 4px;
-	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-text, .team-title-three {
-	text-align: center;
-}
-
+/* 
 /* Our Portfolio */
 .portfolio-block {
 	flex-wrap: wrap;
