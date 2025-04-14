@@ -45,7 +45,7 @@ ul {
 		margin: -1px;
 }
 /* header */
-.container {
+/* .container {
 	width: 1158px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -92,13 +92,13 @@ ul {
 		
 }
 .connection-block {
-	font-style:normal;
+	font-styles:normal;
 	margin-left: auto;
 }
 .menu-links:hover, .connection-link:hover, .menu-links:focus,
 .connection-link:focus {
 	color: #404bbf;
-}
+} */
 /* Effective Solutions for Your Business */
 .section {
 	padding: 120px 0;
