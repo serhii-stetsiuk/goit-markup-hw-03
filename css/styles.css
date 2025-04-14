@@ -53,7 +53,10 @@ ul {
 .container-border {
 	border-bottom: 1px solid #e7e9fc;
 }
-.top-menu, .top-items, .container-menu, .connection {
+.container-menu {
+	display: flex;
+}
+.top-menu, .top-items, .connection {
 	display: flex;
 	align-items: center;
 	
@@ -233,8 +236,8 @@ ul {
 	padding-top: 0;
 	max-width: 264px;
 }
-.baner-basement {
+a.baner-basement {
 	display: inline-block;
 	padding: 0;
-	margin: 0 0 16px 0;
+	margin-bottom: 16px;
 }
