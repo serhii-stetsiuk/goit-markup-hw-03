@@ -9,6 +9,8 @@ body {
 }
 img {
 	display: block;
+	height: auto;
+	min-width: 100%;
 }
 h1,
 h2,
@@ -53,10 +55,8 @@ ul {
 .container-border {
 	border-bottom: 1px solid #e7e9fc;
 }
-.container-menu {
-	display: flex;
-}
-.top-menu, .top-items, .connection {
+
+.top-menu, .top-items, .container-menu, .connection {
 	display: flex;
 	align-items: center;
 	
@@ -92,15 +92,15 @@ ul {
 		
 }
 .connection-block {
-	font-styles:normal;
+	font-style: normal;
 	margin-left: auto;
 }
 .menu-links:hover, .connection-link:hover, .menu-links:focus,
 .connection-link:focus {
 	color: #404bbf;
-} */
+}
 /* Effective Solutions for Your Business */
-.section {
+/* .section {
 	padding: 120px 0;
 }
 .effective {
@@ -141,7 +141,7 @@ ul {
 .effective-push:hover, .effective-push:focus {
 	background-color: #404BBF;
 
-}
+} */
 
 /* Our advantages */
 .general-text {
@@ -190,11 +190,6 @@ ul {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	margin-bottom: 72px;
-}
-
-.images {
-	max-width: 100%;
-	height: auto;
 }
 .team-item {
 	background-color: #fff;
